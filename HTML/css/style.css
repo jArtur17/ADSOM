@@ -83,7 +83,7 @@ p{
     color: var(--oscuro);
 }
 .contenedor{
-    width: 120rem; /*1200 px*/
+    width: 100%; /*1200 px*/
     margin-top: 0;
     margin-right: auto;
     margin-left: auto;
@@ -321,5 +321,29 @@ h1.titulo span {
     font-size: 2rem; /*el css se define mas por la especificidad*/
     color: var(--secundario);
 }
-/*--------------------------------------------*/
+/*---------------------
+
+-----------------------*/
+body.principal{
+    background: url(login.jpg) no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body.segunda{
+    background-color: #007832;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+}
 
