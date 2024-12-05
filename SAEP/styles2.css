@@ -1,0 +1,111 @@
+body.principal{
+    background: url(admin.jpg) no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body.segunda{
+    background: url(backgroundb.jpg) no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+}
+
+
+body {
+    background-color: #39A900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.form-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    max-width: 500px;
+}
+
+.btn-index2{
+    text-align: center;
+}
+
+h1 {
+    color: #000;
+    margin-bottom: 2px;
+    
+}
+
+h2{
+    color: #00324D;
+    text-align: left;
+    font-size: 16px;
+}
+
+.linkr{
+    display: block;
+    text-align: left;
+    color: #646464;
+    text-decoration: underline;
+    font-size: 14px;
+    margin: 10px;
+
+}
+
+.linkO:hover{
+    color: #034b72;
+}
+
+.linkO{
+    display: block;
+    font-size: 14px;
+    color: #00324D;
+    margin:10px;
+}
+
+form input[type="email"],
+form input[type=""],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    background-color: #f6f6f6;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00324D;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #024e76;
+}
